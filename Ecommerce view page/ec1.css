@@ -1,0 +1,65 @@
+
+.gimg img{
+height:92px;
+margin:10px 0;
+cursor:pointer;
+display:block;
+opacity:0.6;
+
+}
+.gimg{
+float:left;
+padding:20px;
+}
+.gimg img:hover{
+opacity:1;
+}
+
+.product{
+top:50%;
+left:34%;
+transform:translate(-50%,-50%);
+position :absolute ;}
+.im img{
+height :500px;}
+.im{
+float:right;
+padding :10px;}
+.info{
+max-width:230px;
+font-size:20px;
+margin:28px 0;
+top:200%;
+}
+.new{
+background:green;
+width:50px;
+color:white;
+font-size:12px;
+font-weight:bold;}
+.col{
+color:#555;}
+.price{
+color:#FE980F;
+font-size:26px;
+font-weight:bold;
+padding-top:20px;}
+input{
+border:1px solid #ccc;
+font-weight:bold;
+height:33px;
+width:30px;}
+.bt{
+background:#FE980F;
+
+color:#FFFFFF;
+font-size:15px;
+font-weight:bold;}
+
+
+
+
+
+
+
+

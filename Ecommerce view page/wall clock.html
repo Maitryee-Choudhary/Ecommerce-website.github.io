@@ -1,0 +1,47 @@
+<html>
+<head><title>Image</title>
+<link rel="stylesheet" href="ec1.css">
+</head>
+<body>
+<table width="100%">
+<tr>
+<th width="40%">
+<div class="product">
+<div class="gimg">
+<img src="wall.jpg" onclick="myf1(this)">
+
+<img src="wx.jpg" onclick="myf1(this)">
+
+
+</div>
+<div class="im">
+<img src="wall.jpg" id="iz">
+</div>
+
+</th>
+<th width="60%">
+
+<div class="col">
+<p class="new">NEW</p>
+<h2>Ajanta Analog<br> 38 cm X 30.48 cm <br>Wall Clock <br> (Brown, With Glass)</h2>
+<p>Product Code: ISRC2134</p>
+<p class="price">USD $10.00</p>
+<p><b>Availability:</b> In Stock</p>
+<p><b>Condition:</b> NEW</p>
+<p><b>Brand::</b> XYZ Company</p>
+<label>Quantity</label>
+<input type="text" value="1">
+<button type="button" class="bt">Add to cart</button>
+
+
+</div>
+</th>
+</table>
+<script type="text/javascript">
+function myf1(si){
+var fi=document.getElementById("iz");
+fi.src=si.src;
+}
+</script>
+</body>
+</html>
