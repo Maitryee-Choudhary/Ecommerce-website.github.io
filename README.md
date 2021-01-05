@@ -1,1 +1,1 @@
-# Ecommerce-website.github.io
+# Image Gallery.github.io
